@@ -1,0 +1,15 @@
+The application allows users to input text in one language (source) and translate it to another (destination).
+Users can select both the source and destination languages from a list of supported languages.
+It supports multiple languages such as English, Spanish, French, German, Chinese, and more, thanks to services like Google Translate API or pre-trained AI models.
+Streamlit provides an intuitive and simple interface for building the app with minimal code.
+The interface typically includes:
+A text input field for users to type their text.
+Dropdown menus to select source and destination languages.
+A button to trigger translation.
+A text output area to display the translated result.
+The system can provide real-time translation as the user enters text, or upon clicking a button to trigger the translation process.
+The translation engine uses AI and machine learning models to ensure accurate and context-aware translations.
+The app uses AI models or APIs like Google Translate API or other neural machine translation (NMT) models (e.g., MarianMT or OpenNMT) to perform translations.
+The text-to-speech (TTS) engine converts the translated text to speech using libraries like pyttsx3 or gTTS (Google Text-to-Speech).
+Streamlit is used to create an interactive web interface with components like input fields, buttons, dropdowns, and output areas.
+It also supports displaying the translation result dynamically, enabling users to interact with the app easily.
